@@ -9,7 +9,4 @@ export const NameHeading = styled.h3`
   text-decoration: none;
   font-family: "Staatliches", cursive;
   font-size: 1.8rem;
-  &:hover {
-    color: dodgerblue;
-  }
 `;

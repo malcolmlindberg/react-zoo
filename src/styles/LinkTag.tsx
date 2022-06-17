@@ -27,3 +27,18 @@ export const NameLinkH3 = styled(Link)`
     color: dodgerblue;
   }
 `;
+
+export const NotFoundBtn = styled(Link)`
+  text-decoration: none;
+  text-decoration-style: none;
+  background-color: dodgerblue;
+  color: white;
+  border-radius: 10px;
+  font-size: 1.6rem;
+  padding: 10px;
+  &:hover {
+    transform: scale(1.1);
+    transition: 0.3s ease;
+    background-color: black;
+  }
+`;
